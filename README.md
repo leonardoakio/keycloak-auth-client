@@ -7,8 +7,8 @@
     <img src="https://img.shields.io/badge/License-MIT-blue"/>
 </p>
 
-## Simple Keycloak Client para Laravel
-O pacote serve de implementação para diferentes `grant_types` comunicando e autenticando com um host do Keycloak
+## Client de comunicação com Keycloak e Axios interceptor
+O pacote possui um componente de login que se comunica com o `Keycloak` e utiliza o `Axios interceptor` para validação de tokens no front-end
 
 ## Iniciando o projeto
 Para instalar a library da página de login 
