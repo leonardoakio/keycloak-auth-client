@@ -1,6 +1,6 @@
 <p align="center">
 &nbsp;
-    <img src="https://img.shields.io/badge/version-v0.0.8-blue"/>
+    <img src="https://img.shields.io/badge/version-v0.0.9-blue"/>
     <img src="https://img.shields.io/github/contributors/leonardoakio/keycloak-client"/>
     <img src="https://img.shields.io/github/stars/leonardoakio/keycloak-client?style=sociale"/>
     <img src="https://img.shields.io/github/forks/leonardoakio/keycloak-client?style=social"/>
