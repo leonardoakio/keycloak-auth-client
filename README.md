@@ -1,6 +1,6 @@
 <p align="center">
 &nbsp;
-    <img src="https://img.shields.io/badge/version-v0.0.6-blue"/>
+    <img src="https://img.shields.io/badge/version-v0.0.7-blue"/>
     <img src="https://img.shields.io/github/contributors/leonardoakio/keycloak-client"/>
     <img src="https://img.shields.io/github/stars/leonardoakio/keycloak-client?style=sociale"/>
     <img src="https://img.shields.io/github/forks/leonardoakio/keycloak-client?style=social"/>
@@ -22,6 +22,7 @@ npm update keycloak-auth-client
 Agora no arquivo `main.js`, que é o ponto de entrada principal da aplicação, fazemos o import do componente presente na library instalada 
 ```javascript
 import LoginInput from "keycloak-auth-client";
+import "keycloak-auth-client/dist/style.css";
 ```
 No mesmo arquivo, criamos uma instância do componente na aplicação Vue.js
 ```javascript
