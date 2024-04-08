@@ -1,0 +1,36 @@
+{
+  "name": "keycloak-auth-client",
+  "version": "0.0.5",
+  "private": false,
+  "author": {
+    "name": "Leonardo Akio",
+    "email": "akioleonardo@gmail.com"
+  },
+  "files": ["dist"],
+  "main": "./dist/keycloak-auth-client.umd.js",
+  "module": "./dist/keycloak-auth-client.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/keycloak-auth-client.es.js",
+      "require": "./dist/keycloak-auth-client.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "axios": "^1.6.1",
+    "js-cookie": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
