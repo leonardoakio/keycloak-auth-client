@@ -1,6 +1,6 @@
 {
   "name": "keycloak-auth-client",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "author": {
     "name": "Leonardo Akio",
@@ -13,8 +13,7 @@
     ".": {
       "import": "./dist/keycloak-auth-client.es.js",
       "require": "./dist/keycloak-auth-client.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
+    }
   },
   "type": "module",
   "scripts": {
